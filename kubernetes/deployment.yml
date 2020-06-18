@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: rent
-          image: username/rent:latest
+          image: 271153858532.dkr.ecr.ap-northeast-2.amazonaws.com/admin05-rent:v1
           ports:
             - containerPort: 8080
           readinessProbe:
